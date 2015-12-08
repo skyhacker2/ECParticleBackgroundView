@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ECParticleBackgroundView_Example', :exclusive => true do
+  pod "ECParticleBackgroundView", :path => "../"
+end
+
+target 'ECParticleBackgroundView_Tests', :exclusive => true do
+  pod "ECParticleBackgroundView", :path => "../"
+
+  
+end
