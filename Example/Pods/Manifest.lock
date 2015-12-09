@@ -1,0 +1,14 @@
+PODS:
+  - ECParticleBackgroundView (0.1.0)
+
+DEPENDENCIES:
+  - ECParticleBackgroundView (from `../`)
+
+EXTERNAL SOURCES:
+  ECParticleBackgroundView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ECParticleBackgroundView: 63574ee0d19351839f58b23d0f4656f65a57de8b
+
+COCOAPODS: 0.39.0

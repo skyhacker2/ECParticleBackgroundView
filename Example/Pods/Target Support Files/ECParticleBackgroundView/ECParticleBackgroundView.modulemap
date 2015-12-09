@@ -1,0 +1,6 @@
+framework module ECParticleBackgroundView {
+  umbrella header "ECParticleBackgroundView-umbrella.h"
+
+  export *
+  module * { export * }
+}

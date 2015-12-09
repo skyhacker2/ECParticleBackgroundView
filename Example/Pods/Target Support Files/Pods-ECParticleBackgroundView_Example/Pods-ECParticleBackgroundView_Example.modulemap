@@ -1,0 +1,6 @@
+framework module Pods_ECParticleBackgroundView_Example {
+  umbrella header "Pods-ECParticleBackgroundView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

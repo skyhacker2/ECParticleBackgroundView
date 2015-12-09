@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A58A14751C172759000D22EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58A14741C172759000D22EA /* LaunchScreen.storyboard */; };
 		AD731393F8F6BB351FCCD0C1 /* Pods_ECParticleBackgroundView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D623D0E0210A54685F9BE849 /* Pods_ECParticleBackgroundView_Example.framework */; };
 		B6FCA9E1022D148B7B7105A0 /* Pods_ECParticleBackgroundView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A1FE377A8E2DC73F36E77A /* Pods_ECParticleBackgroundView_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		68932DF43A849C4322A6E6BC /* ECParticleBackgroundView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ECParticleBackgroundView.podspec; path = ../ECParticleBackgroundView.podspec; sourceTree = "<group>"; };
 		70A1FE377A8E2DC73F36E77A /* Pods_ECParticleBackgroundView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECParticleBackgroundView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A58A14741C172759000D22EA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C60859671C031665FC851595 /* Pods-ECParticleBackgroundView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECParticleBackgroundView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECParticleBackgroundView_Tests/Pods-ECParticleBackgroundView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA0AB34FE2E9209FA61DBE2E /* Pods-ECParticleBackgroundView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECParticleBackgroundView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECParticleBackgroundView_Example/Pods-ECParticleBackgroundView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D623D0E0210A54685F9BE849 /* Pods_ECParticleBackgroundView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECParticleBackgroundView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 		6003F593195388D20070C39A /* Example for ECParticleBackgroundView */ = {
 			isa = PBXGroup;
 			children = (
+				A58A14741C172759000D22EA /* LaunchScreen.storyboard */,
 				6003F59C195388D20070C39A /* ECAppDelegate.h */,
 				6003F59D195388D20070C39A /* ECAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				A58A14751C172759000D22EA /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

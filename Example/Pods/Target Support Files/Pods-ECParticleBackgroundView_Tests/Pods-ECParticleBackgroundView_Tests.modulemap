@@ -1,0 +1,6 @@
+framework module Pods_ECParticleBackgroundView_Tests {
+  umbrella header "Pods-ECParticleBackgroundView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FF8D7DCE50AF92AE4164768E8C5B00 /* ECParticleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07BEAE43F571ACBDFAC9F1086A8E5F /* ECParticleBackgroundView.m */; };
+		39FE5F55042AB26C587250BDD004E892 /* ECParticleBackgroundView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D14026A58667C795CF94E5FCE007258 /* ECParticleBackgroundView.bundle */; };
+		50759959829B325D974879CC32D3B5F1 /* ECParticleBackgroundView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0233F0DCDEC8BFD8377802908174773C /* ECParticleBackgroundView-dummy.m */; };
+		5884317B086CB104A43AAE8110C638B4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E379586477527E568159434207867 /* ReplaceMe.m */; };
+		5F163AA575BD63A141919CB132D1BC8B /* ECParticleBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C68A1F1C4B839439ABECFCA8F4337FF /* ECParticleBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F50BEADBE30CDAED33176A007B16AC4 /* ECParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE7AB50E0F953FF56955E00F79FFBC /* ECParticle.m */; };
+		71BFCE19406DC75C1AD0E806A78C6A2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		73290B307204B891A4F28B1CC980B2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7E1D441950DCDEA68ADBCBB41483CB7E /* Pods-ECParticleBackgroundView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E87C8086E6EED977B0F75D4DC05B80C /* Pods-ECParticleBackgroundView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81FAFBA73FDDF2232FE3E5FD92BFD7FA /* Pods-ECParticleBackgroundView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E4A15DDD8180F1B7BA85D18EC7EE42 /* Pods-ECParticleBackgroundView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E235FF8CA2808FB21F5F68591F446B /* ECParticleBackgroundView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB1AE075DAD42CAA744B310E60E4BC5 /* ECParticleBackgroundView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6D03F85410EEAEDBEBFA0654AE5727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D1EF47C2B99D5391FE79E05687EE754E /* Pods-ECParticleBackgroundView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FC2908E53E7AC02B2DBBBA0DF9A11 /* Pods-ECParticleBackgroundView_Example-dummy.m */; };
+		DBA57A2A5E5D5CF85E4DFF8A7A07F4C8 /* ECParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D808A3B4729873B4BDBD913467A953 /* ECParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72E09E1C0D525ED3375B76B5E118ADE /* Pods-ECParticleBackgroundView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E4DBF2127EBB6FD2A875B806BC180B /* Pods-ECParticleBackgroundView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46788C31655C1E90D43B8B604C357FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7ABCA72F0C81B5631316390242B9A3;
+			remoteInfo = "ECParticleBackgroundView-ECParticleBackgroundView";
+		};
+		5C8F8FB3D9C02ECB4D44F456CA733A71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7A9CC644491F33F842FD4D6038CBB1;
+			remoteInfo = ECParticleBackgroundView;
+		};
+		E25EC4C526431D7D27641881B93D1F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7A9CC644491F33F842FD4D6038CBB1;
+			remoteInfo = ECParticleBackgroundView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0233F0DCDEC8BFD8377802908174773C /* ECParticleBackgroundView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECParticleBackgroundView-dummy.m"; sourceTree = "<group>"; };
+		0B3FC2908E53E7AC02B2DBBBA0DF9A11 /* Pods-ECParticleBackgroundView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECParticleBackgroundView_Example-dummy.m"; sourceTree = "<group>"; };
+		12AC93C57B379FD2EEA5C3735D19CE42 /* ECParticleBackgroundView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECParticleBackgroundView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D808A3B4729873B4BDBD913467A953 /* ECParticle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECParticle.h; sourceTree = "<group>"; };
+		3A6D578E7DE9FF53608863EED19A1262 /* ECParticleBackgroundView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECParticleBackgroundView.modulemap; sourceTree = "<group>"; };
+		3B3E863CECEA768AA7825F2BC8E7558D /* Pods-ECParticleBackgroundView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECParticleBackgroundView_Example-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F5E379586477527E568159434207867 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		4638BEEEBFAB7A597DB4FD82C7AC57F9 /* Pods-ECParticleBackgroundView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECParticleBackgroundView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4AE5F6A749A9A51B8C972A550ECAABDD /* Pods-ECParticleBackgroundView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECParticleBackgroundView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D1EA8DD87097845D87D36D72978184D /* Pods-ECParticleBackgroundView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECParticleBackgroundView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		50B9BF808A95F7D81FE1D0084566E0AB /* Pods-ECParticleBackgroundView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECParticleBackgroundView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54DEEFD9381A2211CF69EA8C50A3FE10 /* Pods_ECParticleBackgroundView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECParticleBackgroundView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A07BEAE43F571ACBDFAC9F1086A8E5F /* ECParticleBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECParticleBackgroundView.m; sourceTree = "<group>"; };
+		5D6565BBE411ECC5E7AE1D49376950A8 /* Pods-ECParticleBackgroundView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECParticleBackgroundView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C68A1F1C4B839439ABECFCA8F4337FF /* ECParticleBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECParticleBackgroundView.h; sourceTree = "<group>"; };
+		6E87C8086E6EED977B0F75D4DC05B80C /* Pods-ECParticleBackgroundView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECParticleBackgroundView_Example-umbrella.h"; sourceTree = "<group>"; };
+		742385E33238BD43D6EEE76DDAFAB4AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F702C8F901A276ED7D5C9F55426C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AD5F2EF286BAFD962CEE182C845446 /* Pods-ECParticleBackgroundView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECParticleBackgroundView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		852DF2DEE3E9AE49D5331663EE8B22F1 /* Pods-ECParticleBackgroundView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECParticleBackgroundView_Example.modulemap"; sourceTree = "<group>"; };
+		87CA9C671179C58C44F62B65359322D0 /* Pods-ECParticleBackgroundView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECParticleBackgroundView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9392E7AF2173E64478BB73F8123E7569 /* Pods_ECParticleBackgroundView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECParticleBackgroundView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D3DE7364C3E5FCB1B37291C5E86D29 /* ECParticleBackgroundView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECParticleBackgroundView-prefix.pch"; sourceTree = "<group>"; };
+		9D14026A58667C795CF94E5FCE007258 /* ECParticleBackgroundView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECParticleBackgroundView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E4DBF2127EBB6FD2A875B806BC180B /* Pods-ECParticleBackgroundView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECParticleBackgroundView_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5FF91CF6AF3586053C9E8E9AB95D6F9 /* Pods-ECParticleBackgroundView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECParticleBackgroundView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7E4A15DDD8180F1B7BA85D18EC7EE42 /* Pods-ECParticleBackgroundView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECParticleBackgroundView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C67F3D842C05B9C170CFEBC6CD85F219 /* ECParticleBackgroundView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECParticleBackgroundView.xcconfig; sourceTree = "<group>"; };
+		CDB1AE075DAD42CAA744B310E60E4BC5 /* ECParticleBackgroundView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECParticleBackgroundView-umbrella.h"; sourceTree = "<group>"; };
+		D1EBA9705F98FFD3D430B8445F5F01D1 /* Pods-ECParticleBackgroundView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECParticleBackgroundView_Tests.modulemap"; sourceTree = "<group>"; };
+		D4451C446F7C8037592934726AC6994A /* Pods-ECParticleBackgroundView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECParticleBackgroundView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D6EE7AB50E0F953FF56955E00F79FFBC /* ECParticle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECParticle.m; sourceTree = "<group>"; };
+		DF0EBFE219454876BBCC263FD7A2A5B8 /* Pods-ECParticleBackgroundView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECParticleBackgroundView_Tests-resources.sh"; sourceTree = "<group>"; };
+		E9375BF410997C9330FE392004953A74 /* Pods-ECParticleBackgroundView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECParticleBackgroundView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F70A69DCE9078A5FF96CB91B829D6C79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D8602791C427624EAD8BB960B5EC48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205065C3C51DC9ED8053F87D8301189C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6D03F85410EEAEDBEBFA0654AE5727 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76356E460290FD73539A190A759ECC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73290B307204B891A4F28B1CC980B2C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF55FB52D51B904C45A17AE39073330C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BFCE19406DC75C1AD0E806A78C6A2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B882F0BFE2A007CF1B65AD44ACFE06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8541B428F08650691E39626450DD22B6 /* Pods-ECParticleBackgroundView_Example */,
+				81E3653E2B641900BF8FAD38F580AD0B /* Pods-ECParticleBackgroundView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B51AD852C9C4E675BC817C4EA70A3F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BDFBF6C52903C64866E6045D99BDDF /* ECParticleBackgroundView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		76E0D6A6F8E876E42425E09831DA02FE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E02064F46E5F06524139129F4593C54B /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6B51AD852C9C4E675BC817C4EA70A3F1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8C610A39C786F8F91219E80D78EFAB55 /* Products */,
+				20B882F0BFE2A007CF1B65AD44ACFE06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81E3653E2B641900BF8FAD38F580AD0B /* Pods-ECParticleBackgroundView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F70A69DCE9078A5FF96CB91B829D6C79 /* Info.plist */,
+				D1EBA9705F98FFD3D430B8445F5F01D1 /* Pods-ECParticleBackgroundView_Tests.modulemap */,
+				4AE5F6A749A9A51B8C972A550ECAABDD /* Pods-ECParticleBackgroundView_Tests-acknowledgements.markdown */,
+				87CA9C671179C58C44F62B65359322D0 /* Pods-ECParticleBackgroundView_Tests-acknowledgements.plist */,
+				A4E4DBF2127EBB6FD2A875B806BC180B /* Pods-ECParticleBackgroundView_Tests-dummy.m */,
+				4638BEEEBFAB7A597DB4FD82C7AC57F9 /* Pods-ECParticleBackgroundView_Tests-frameworks.sh */,
+				DF0EBFE219454876BBCC263FD7A2A5B8 /* Pods-ECParticleBackgroundView_Tests-resources.sh */,
+				A7E4A15DDD8180F1B7BA85D18EC7EE42 /* Pods-ECParticleBackgroundView_Tests-umbrella.h */,
+				4D1EA8DD87097845D87D36D72978184D /* Pods-ECParticleBackgroundView_Tests.debug.xcconfig */,
+				A5FF91CF6AF3586053C9E8E9AB95D6F9 /* Pods-ECParticleBackgroundView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECParticleBackgroundView_Tests";
+			path = "Target Support Files/Pods-ECParticleBackgroundView_Tests";
+			sourceTree = "<group>";
+		};
+		8541B428F08650691E39626450DD22B6 /* Pods-ECParticleBackgroundView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				742385E33238BD43D6EEE76DDAFAB4AD /* Info.plist */,
+				852DF2DEE3E9AE49D5331663EE8B22F1 /* Pods-ECParticleBackgroundView_Example.modulemap */,
+				5D6565BBE411ECC5E7AE1D49376950A8 /* Pods-ECParticleBackgroundView_Example-acknowledgements.markdown */,
+				81AD5F2EF286BAFD962CEE182C845446 /* Pods-ECParticleBackgroundView_Example-acknowledgements.plist */,
+				0B3FC2908E53E7AC02B2DBBBA0DF9A11 /* Pods-ECParticleBackgroundView_Example-dummy.m */,
+				E9375BF410997C9330FE392004953A74 /* Pods-ECParticleBackgroundView_Example-frameworks.sh */,
+				3B3E863CECEA768AA7825F2BC8E7558D /* Pods-ECParticleBackgroundView_Example-resources.sh */,
+				6E87C8086E6EED977B0F75D4DC05B80C /* Pods-ECParticleBackgroundView_Example-umbrella.h */,
+				50B9BF808A95F7D81FE1D0084566E0AB /* Pods-ECParticleBackgroundView_Example.debug.xcconfig */,
+				D4451C446F7C8037592934726AC6994A /* Pods-ECParticleBackgroundView_Example.release.xcconfig */,
+			);
+			name = "Pods-ECParticleBackgroundView_Example";
+			path = "Target Support Files/Pods-ECParticleBackgroundView_Example";
+			sourceTree = "<group>";
+		};
+		8C610A39C786F8F91219E80D78EFAB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D14026A58667C795CF94E5FCE007258 /* ECParticleBackgroundView.bundle */,
+				12AC93C57B379FD2EEA5C3735D19CE42 /* ECParticleBackgroundView.framework */,
+				9392E7AF2173E64478BB73F8123E7569 /* Pods_ECParticleBackgroundView_Example.framework */,
+				54DEEFD9381A2211CF69EA8C50A3FE10 /* Pods_ECParticleBackgroundView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10A29C696E1E1A250B1068F6C2125A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A6D578E7DE9FF53608863EED19A1262 /* ECParticleBackgroundView.modulemap */,
+				C67F3D842C05B9C170CFEBC6CD85F219 /* ECParticleBackgroundView.xcconfig */,
+				0233F0DCDEC8BFD8377802908174773C /* ECParticleBackgroundView-dummy.m */,
+				97D3DE7364C3E5FCB1B37291C5E86D29 /* ECParticleBackgroundView-prefix.pch */,
+				CDB1AE075DAD42CAA744B310E60E4BC5 /* ECParticleBackgroundView-umbrella.h */,
+				78F702C8F901A276ED7D5C9F55426C74 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECParticleBackgroundView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E02064F46E5F06524139129F4593C54B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24D808A3B4729873B4BDBD913467A953 /* ECParticle.h */,
+				D6EE7AB50E0F953FF56955E00F79FFBC /* ECParticle.m */,
+				6C68A1F1C4B839439ABECFCA8F4337FF /* ECParticleBackgroundView.h */,
+				5A07BEAE43F571ACBDFAC9F1086A8E5F /* ECParticleBackgroundView.m */,
+				3F5E379586477527E568159434207867 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F5BDFBF6C52903C64866E6045D99BDDF /* ECParticleBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				76E0D6A6F8E876E42425E09831DA02FE /* Pod */,
+				A10A29C696E1E1A250B1068F6C2125A2 /* Support Files */,
+			);
+			name = ECParticleBackgroundView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3602F45EB32D2220139D7315E55250F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FAFBA73FDDF2232FE3E5FD92BFD7FA /* Pods-ECParticleBackgroundView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF335199C7C9F8DBA930ECB7D7011709 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1D441950DCDEA68ADBCBB41483CB7E /* Pods-ECParticleBackgroundView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60EF33A6496C3C1BAFEA14D5C1B5957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA57A2A5E5D5CF85E4DFF8A7A07F4C8 /* ECParticle.h in Headers */,
+				92E235FF8CA2808FB21F5F68591F446B /* ECParticleBackgroundView-umbrella.h in Headers */,
+				5F163AA575BD63A141919CB132D1BC8B /* ECParticleBackgroundView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01EACD34E645768428F7E0B5FF3EB9BB /* Pods-ECParticleBackgroundView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A47BFDB7CF1A67DD61D51EE636501EC /* Build configuration list for PBXNativeTarget "Pods-ECParticleBackgroundView_Tests" */;
+			buildPhases = (
+				EC78FE714C49EBBE4C8DD4BF2247D33F /* Sources */,
+				76356E460290FD73539A190A759ECC40 /* Frameworks */,
+				3602F45EB32D2220139D7315E55250F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C001F45DF0DDD8C88E10B9C70EADA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECParticleBackgroundView_Tests";
+			productName = "Pods-ECParticleBackgroundView_Tests";
+			productReference = 54DEEFD9381A2211CF69EA8C50A3FE10 /* Pods_ECParticleBackgroundView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B1EE099CBE02E1B418CEC268558BD20 /* Pods-ECParticleBackgroundView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A76FA72924709C3A98C221C9200D46 /* Build configuration list for PBXNativeTarget "Pods-ECParticleBackgroundView_Example" */;
+			buildPhases = (
+				255DE2C8FB44DEA2FE9554AD35A513A2 /* Sources */,
+				DF55FB52D51B904C45A17AE39073330C /* Frameworks */,
+				EF335199C7C9F8DBA930ECB7D7011709 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53588E38A039619A8E9E6FFBBDF8725 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECParticleBackgroundView_Example";
+			productName = "Pods-ECParticleBackgroundView_Example";
+			productReference = 9392E7AF2173E64478BB73F8123E7569 /* Pods_ECParticleBackgroundView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F7A9CC644491F33F842FD4D6038CBB1 /* ECParticleBackgroundView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B68B4560127A58AF5EF3EA11BB3193F /* Build configuration list for PBXNativeTarget "ECParticleBackgroundView" */;
+			buildPhases = (
+				A48D8080EA9C025F2B4A3C79E3F2C893 /* Sources */,
+				205065C3C51DC9ED8053F87D8301189C /* Frameworks */,
+				277E671CE92592BCABCD5931651A7541 /* Resources */,
+				F60EF33A6496C3C1BAFEA14D5C1B5957 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C48ABD846134156DFF31CEBC78F72AE /* PBXTargetDependency */,
+			);
+			name = ECParticleBackgroundView;
+			productName = ECParticleBackgroundView;
+			productReference = 12AC93C57B379FD2EEA5C3735D19CE42 /* ECParticleBackgroundView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC7ABCA72F0C81B5631316390242B9A3 /* ECParticleBackgroundView-ECParticleBackgroundView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568449563050C23195382B05E3557351 /* Build configuration list for PBXNativeTarget "ECParticleBackgroundView-ECParticleBackgroundView" */;
+			buildPhases = (
+				1F2DA0AACC45CF26B921CD8E3D94D2EA /* Sources */,
+				0D8602791C427624EAD8BB960B5EC48E /* Frameworks */,
+				848F495A3B2EB41A0271E9D20E2657CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECParticleBackgroundView-ECParticleBackgroundView";
+			productName = "ECParticleBackgroundView-ECParticleBackgroundView";
+			productReference = 9D14026A58667C795CF94E5FCE007258 /* ECParticleBackgroundView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8C610A39C786F8F91219E80D78EFAB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F7A9CC644491F33F842FD4D6038CBB1 /* ECParticleBackgroundView */,
+				CC7ABCA72F0C81B5631316390242B9A3 /* ECParticleBackgroundView-ECParticleBackgroundView */,
+				2B1EE099CBE02E1B418CEC268558BD20 /* Pods-ECParticleBackgroundView_Example */,
+				01EACD34E645768428F7E0B5FF3EB9BB /* Pods-ECParticleBackgroundView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277E671CE92592BCABCD5931651A7541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FE5F55042AB26C587250BDD004E892 /* ECParticleBackgroundView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F495A3B2EB41A0271E9D20E2657CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2DA0AACC45CF26B921CD8E3D94D2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255DE2C8FB44DEA2FE9554AD35A513A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EF47C2B99D5391FE79E05687EE754E /* Pods-ECParticleBackgroundView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D8080EA9C025F2B4A3C79E3F2C893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F50BEADBE30CDAED33176A007B16AC4 /* ECParticle.m in Sources */,
+				50759959829B325D974879CC32D3B5F1 /* ECParticleBackgroundView-dummy.m in Sources */,
+				13FF8D7DCE50AF92AE4164768E8C5B00 /* ECParticleBackgroundView.m in Sources */,
+				5884317B086CB104A43AAE8110C638B4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC78FE714C49EBBE4C8DD4BF2247D33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E09E1C0D525ED3375B76B5E118ADE /* Pods-ECParticleBackgroundView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37C001F45DF0DDD8C88E10B9C70EADA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECParticleBackgroundView;
+			target = 7F7A9CC644491F33F842FD4D6038CBB1 /* ECParticleBackgroundView */;
+			targetProxy = E25EC4C526431D7D27641881B93D1F85 /* PBXContainerItemProxy */;
+		};
+		5C48ABD846134156DFF31CEBC78F72AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ECParticleBackgroundView-ECParticleBackgroundView";
+			target = CC7ABCA72F0C81B5631316390242B9A3 /* ECParticleBackgroundView-ECParticleBackgroundView */;
+			targetProxy = 46788C31655C1E90D43B8B604C357FFB /* PBXContainerItemProxy */;
+		};
+		B53588E38A039619A8E9E6FFBBDF8725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECParticleBackgroundView;
+			target = 7F7A9CC644491F33F842FD4D6038CBB1 /* ECParticleBackgroundView */;
+			targetProxy = 5C8F8FB3D9C02ECB4D44F456CA733A71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093350EF83F35CB7F414E2CAE01A3DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F3D842C05B9C170CFEBC6CD85F219 /* ECParticleBackgroundView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECParticleBackgroundView/ECParticleBackgroundView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECParticleBackgroundView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECParticleBackgroundView/ECParticleBackgroundView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECParticleBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A62CFDF9B5CD6CD31F0D11F652B12EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1EA8DD87097845D87D36D72978184D /* Pods-ECParticleBackgroundView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Tests/Pods-ECParticleBackgroundView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECParticleBackgroundView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C1D914E26AFDE235617D2EDED4F7DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4451C446F7C8037592934726AC6994A /* Pods-ECParticleBackgroundView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Example/Pods-ECParticleBackgroundView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECParticleBackgroundView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9203F8495ECAE3A9202E5E9450D31D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F3D842C05B9C170CFEBC6CD85F219 /* ECParticleBackgroundView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECParticleBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A4E78319A1D3F2175B242026A0560BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F3D842C05B9C170CFEBC6CD85F219 /* ECParticleBackgroundView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECParticleBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ABBA6B35E44C1D8CE3C298418F635CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F3D842C05B9C170CFEBC6CD85F219 /* ECParticleBackgroundView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECParticleBackgroundView/ECParticleBackgroundView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECParticleBackgroundView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECParticleBackgroundView/ECParticleBackgroundView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECParticleBackgroundView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE890890648D6ACB7B83BDA4E33F970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FF91CF6AF3586053C9E8E9AB95D6F9 /* Pods-ECParticleBackgroundView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Tests/Pods-ECParticleBackgroundView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECParticleBackgroundView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEBA67C91557F0FEB8E7D0F43D891D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B9BF808A95F7D81FE1D0084566E0AB /* Pods-ECParticleBackgroundView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECParticleBackgroundView_Example/Pods-ECParticleBackgroundView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECParticleBackgroundView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568449563050C23195382B05E3557351 /* Build configuration list for PBXNativeTarget "ECParticleBackgroundView-ECParticleBackgroundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E78319A1D3F2175B242026A0560BC7 /* Debug */,
+				9203F8495ECAE3A9202E5E9450D31D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B68B4560127A58AF5EF3EA11BB3193F /* Build configuration list for PBXNativeTarget "ECParticleBackgroundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBA6B35E44C1D8CE3C298418F635CFE /* Debug */,
+				093350EF83F35CB7F414E2CAE01A3DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A47BFDB7CF1A67DD61D51EE636501EC /* Build configuration list for PBXNativeTarget "Pods-ECParticleBackgroundView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A62CFDF9B5CD6CD31F0D11F652B12EE /* Debug */,
+				BE890890648D6ACB7B83BDA4E33F970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A76FA72924709C3A98C221C9200D46 /* Build configuration list for PBXNativeTarget "Pods-ECParticleBackgroundView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBA67C91557F0FEB8E7D0F43D891D61 /* Debug */,
+				8C1D914E26AFDE235617D2EDED4F7DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
